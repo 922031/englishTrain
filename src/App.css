@@ -4,8 +4,7 @@ body {
   align-items: center;
   min-height: 100vh;
   /* flex: 1; */
-  /* background: linear-gradient(to bottom, yellow, skyblue); */
-  /* min-width: 100vw;を.english-containerに入れないとスタイルが思うようにできない理由*/
+  background: linear-gradient(to bottom, yellow, skyblue);
 }
 
 div#root{
@@ -14,7 +13,11 @@ div#root{
 
 .english-container {
   flex: 1;
-   /* min-width: 100vw; */
+}
+
+.english{
+  flex: 1;
+  text-align: center;
 }
 
 .header-title {
@@ -22,7 +25,6 @@ div#root{
   font-size: 44px;
   font-weight: bold;
   color: black;
-  background-color: yellow;
   width: 100%;
 }
 

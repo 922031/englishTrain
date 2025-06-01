@@ -29,7 +29,7 @@ function MainApp() {
               component={Link}
               to='/Mistakes'
               variant='contained'>
-              間違いリスト
+              単語リスト
             </Button>
           </div>
         </div>{/*button-container*/}
